@@ -3,17 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - killzone
-  - Coin
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - ground
+  - 
   - Water
   - UI
-  - CameraBounds
+  - 
   - 
   - 
   - 
@@ -42,25 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Background
-    uniqueID: 1681263605
-    locked: 0
-  - name: Trees
-    uniqueID: 2504674865
-    locked: 0
-  - name: Props
-    uniqueID: 3589227467
-    locked: 0
-  - name: dynamicprops
-    uniqueID: 4206202555
-    locked: 0
-  - name: pickup
-    uniqueID: 1949001141
-    locked: 0
-  - name: Platform
-    uniqueID: 3300334483
-    locked: 0
-  - name: Player
-    uniqueID: 3775889879
     locked: 0
