@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Igloo_0: -2605421875397535091
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

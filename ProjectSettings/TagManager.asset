@@ -45,8 +45,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Ground
-    uniqueID: 1768320231
+  - name: Platform
+    uniqueID: 2088334485
+    locked: 0
+  - name: Character
+    uniqueID: 3514021499
     locked: 0
   m_RenderingLayers:
   - Default
