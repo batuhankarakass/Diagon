@@ -741,6 +741,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   arrow: {fileID: 1560130040306232027, guid: b4952518cf28f4f4fa640bd7ac224c1c, type: 3}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &500398182
 GameObject:
@@ -8026,4 +8029,7 @@ SceneRoots:
   - {fileID: 414961677}
   - {fileID: 855711222}
   - {fileID: 847519596}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
