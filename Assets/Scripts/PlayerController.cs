@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 1f;  // neden burda 1f yaptık bilmiyorum 5f?
     public float jumpSpeed = 1f, jumpFrequency, nextJumpTime;
 
-    bool facingRight=true;
+    public bool facingRight=true;
 
     public Transform groundCheckPosition;
     public float groundCheckRadius;
@@ -44,6 +44,7 @@ public class PlayerController : MonoBehaviour
 
     void HorizontalMove()
     {
+        Debug.Log(Input.GetAxis("Horizontal"));
         playerRb.linearVelocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, playerRb.linearVelocity.y);
 
         playerAnimator.SetFloat("playerSpeed", Mathf.Abs(playerRb.linearVelocity.x));
@@ -68,6 +69,16 @@ public class PlayerController : MonoBehaviour
     {
         isGrounded = Physics2D.OverlapCircle(groundCheckPosition.position,groundCheckRadius, groundCheckLayer);
         playerAnimator.SetBool("isGroundedAnim", isGrounded);  
+    }
+
+
+
+    void DeScale()
+    {
+        if(facingRight)
+            transform.localScale = new Vector3(1,1,1) ;
+        else
+            transform.localScale = new Vector3(-1, 1, 1);
     }
 
 }
