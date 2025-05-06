@@ -1,7 +1,6 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class FinishLine : MonoBehaviour
+public class s : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -13,11 +12,5 @@ public class FinishLine : MonoBehaviour
     void Update()
     {
         
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        //BU KOD SAHNEYİ DEĞİTİRMEYE YARAR 
-        SceneManager.LoadScene(1);
     }
 }
