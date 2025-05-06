@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0430c377706194a4285aeb1cd41e5855
+timeCreated: 1512811382
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106818
+  packageName: 2D Ice World
+  packageVersion: 1.5
+  assetPath: Assets/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Top_2.asset
+  uploadId: 410600

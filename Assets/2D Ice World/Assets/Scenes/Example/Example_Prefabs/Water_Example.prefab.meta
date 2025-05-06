@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 19e028728685ac341a65ec4771c1f4a3
+timeCreated: 1512813916
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106818
+  packageName: 2D Ice World
+  packageVersion: 1.5
+  assetPath: Assets/2D Ice World/Assets/Scenes/Example/Example_Prefabs/Water_Example.prefab
+  uploadId: 410600

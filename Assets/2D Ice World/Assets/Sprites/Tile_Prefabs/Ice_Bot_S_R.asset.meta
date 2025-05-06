@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 975952cb7ac49fa48a401f2fbb51fdff
+timeCreated: 1512811378
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106818
+  packageName: 2D Ice World
+  packageVersion: 1.5
+  assetPath: Assets/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Bot_S_R.asset
+  uploadId: 410600

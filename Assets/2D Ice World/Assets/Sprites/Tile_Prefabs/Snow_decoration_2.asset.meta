@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 55185785d81549842937040957f5452e
+timeCreated: 1512811387
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106818
+  packageName: 2D Ice World
+  packageVersion: 1.5
+  assetPath: Assets/2D Ice World/Assets/Sprites/Tile_Prefabs/Snow_decoration_2.asset
+  uploadId: 410600
