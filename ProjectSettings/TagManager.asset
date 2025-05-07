@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
+  - Enemy
+  - Bullet
+  - Water
   layers:
   - Default
   - TransparentFX
@@ -17,7 +20,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Bullet
   - 
   - 
   - 
