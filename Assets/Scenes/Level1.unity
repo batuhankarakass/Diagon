@@ -1186,6 +1186,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &807258173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 807258174}
+  m_Layer: 0
+  m_Name: Rightpoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &807258174
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807258173}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 93, y: -2.122289, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &849364473
 GameObject:
   m_ObjectHideFlags: 0
@@ -1668,6 +1699,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mace (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3094754194972662054, guid: 47856402a7268c847a3a93cc24d7718c, type: 3}
+      propertyPath: leftPoint
+      value: 
+      objectReference: {fileID: 1620274437}
+    - target: {fileID: 3094754194972662054, guid: 47856402a7268c847a3a93cc24d7718c, type: 3}
+      propertyPath: rightPoint
+      value: 
+      objectReference: {fileID: 1541109619}
     - target: {fileID: 9184620961529210487, guid: 47856402a7268c847a3a93cc24d7718c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33926177
@@ -3351,6 +3390,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1541109618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1541109619}
+  m_Layer: 0
+  m_Name: Rightpoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1541109619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541109618}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4, y: -2.122289, z: 6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1591392100
 GameObject:
   m_ObjectHideFlags: 0
@@ -3525,6 +3595,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1620274436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1620274437}
+  m_Layer: 0
+  m_Name: Leftpoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1620274437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620274436}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -2.122289, z: 6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1663313598 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8310803139029431274, guid: 1964ad8989ac92946a934c0f8df09db1, type: 3}
@@ -4074,6 +4175,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1892167591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1892167592}
+  m_Layer: 0
+  m_Name: Leftpoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1892167592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892167591}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 83, y: -2.122289, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1901692166
 GameObject:
   m_ObjectHideFlags: 0
@@ -8881,6 +9013,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mace
       objectReference: {fileID: 0}
+    - target: {fileID: 3094754194972662054, guid: 47856402a7268c847a3a93cc24d7718c, type: 3}
+      propertyPath: leftPoint
+      value: 
+      objectReference: {fileID: 1892167592}
+    - target: {fileID: 3094754194972662054, guid: 47856402a7268c847a3a93cc24d7718c, type: 3}
+      propertyPath: rightPoint
+      value: 
+      objectReference: {fileID: 807258174}
     - target: {fileID: 9184620961529210487, guid: 47856402a7268c847a3a93cc24d7718c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33926177
@@ -9130,7 +9270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5122827652775571052, guid: 0c994b89173c5b84ca85d518f8c9e69a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.438
+      value: -1.46
       objectReference: {fileID: 0}
     - target: {fileID: 5122827652775571052, guid: 0c994b89173c5b84ca85d518f8c9e69a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9213,3 +9353,7 @@ SceneRoots:
   - {fileID: 849364474}
   - {fileID: 539911336}
   - {fileID: 1672911186}
+  - {fileID: 1892167592}
+  - {fileID: 807258174}
+  - {fileID: 1620274437}
+  - {fileID: 1541109619}
