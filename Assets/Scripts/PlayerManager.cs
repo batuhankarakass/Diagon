@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -15,10 +16,14 @@ public class PlayerManager : MonoBehaviour
 
     private Collider2D playerCollider;
 
+    public Slider slider;
+
     void Start()
     {
         muzzle = transform.GetChild(1);
         playerCollider = GetComponent<Collider2D>();
+        slider.maxValue = health;
+        slider.value = health;
     }
 
     void Update()
@@ -42,6 +47,8 @@ public class PlayerManager : MonoBehaviour
         {
             DieInWater();
         }
+        slider.value = health;
+       
     }
 
     void DieInWater()

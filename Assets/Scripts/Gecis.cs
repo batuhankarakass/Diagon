@@ -7,7 +7,9 @@ public class Gecis : MonoBehaviour
     {
         if (other.CompareTag("Player")) // Oyuncu tag'i varsa geçiş yap
         {
+            Time.timeScale = 1;
             SceneManager.LoadScene("Level2");
+           
         }
     }
 }

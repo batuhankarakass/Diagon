@@ -52,7 +52,7 @@ public class EnemyManager : MonoBehaviour
         }
         AmIDead();
     }
-    void AmIDead()
+    public void AmIDead()
     {
         if (health <= 0)
         {
