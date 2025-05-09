@@ -13,7 +13,6 @@ public class PlayerController : MonoBehaviour
     bool facingRight = true;
 
     public Transform spawnPoint;
-
     public Transform groundCheckPosition;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundCheckLayer;
@@ -28,9 +27,6 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = spawnPoint.position;
         }
-
-        playerRb = GetComponent<Rigidbody2D>();
-        playerAnimator = GetComponent<Animator>();
     }
 
     void Update()
@@ -39,10 +35,17 @@ public class PlayerController : MonoBehaviour
         OnGroundCheck();
         HandleFlip();
 
+        // Zıplama
         if (Input.GetButtonDown("Jump") && isGrounded && Time.time > nextJumpTime)
         {
             nextJumpTime = Time.time + jumpCooldown;
             Jump();
+        }
+
+        // Ateş etme (K tuşuna basıldığında)
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            playerAnimator.SetTrigger("Shoot");
         }
     }
 
@@ -50,6 +53,8 @@ public class PlayerController : MonoBehaviour
     {
         float moveInput = Input.GetAxis("Horizontal");
         playerRb.linearVelocity = new Vector2(moveInput * moveSpeed, playerRb.linearVelocity.y);
+
+        // Animasyona hız verisi gönder
         playerAnimator.SetFloat("playerSpeed", Mathf.Abs(moveInput));
     }
 
@@ -65,11 +70,9 @@ public class PlayerController : MonoBehaviour
     }
 
     void Jump()
-        {
+    {
         playerRb.linearVelocity = new Vector2(playerRb.linearVelocity.x, jumpSpeed);
-
     }
-
 
     void OnGroundCheck()
     {
