@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Preview-Snow_0: 567608554389817621
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
