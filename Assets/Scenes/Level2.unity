@@ -12552,7 +12552,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnPoint
   m_TagString: Respawn
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -12565,7 +12565,7 @@ Transform:
   m_GameObject: {fileID: 1480307944}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 200, y: -2, z: 296.77}
+  m_LocalPosition: {x: -16, y: -4, z: 296.77}
   m_LocalScale: {x: 10, y: 2e+9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

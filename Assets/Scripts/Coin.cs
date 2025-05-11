@@ -8,8 +8,10 @@ public class Coin : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            CoinManager.instance.AddCoins(coinValue);
-            Destroy(gameObject); // Coin yok olur
+            PlayerManager manager = other.GetComponent<PlayerManager>();
+            manager.coins++;
+            manager.ChangeValue();
+            Destroy(gameObject); 
         }
     }
 }

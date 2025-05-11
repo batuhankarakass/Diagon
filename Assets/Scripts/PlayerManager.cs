@@ -12,18 +12,23 @@ public class PlayerManager : MonoBehaviour
 
     private Transform muzzle;
     private bool dead = false;
-    private bool canTouchWater = true;  // 🔑 Suya çarpma izni
+    private bool canTouchWater = true;  
 
     private Collider2D playerCollider;
 
     public Slider slider;
-
+    public Text coinvalue;
+    public int coins = 0;
+    public AudioClip clip;
+    public AudioSource source;
     void Start()
     {
+       
         muzzle = transform.GetChild(1);
         playerCollider = GetComponent<Collider2D>();
         slider.maxValue = health;
         slider.value = health;
+        source =transform.GetComponent<AudioSource>();
     }
 
     void Update()
@@ -53,13 +58,13 @@ public class PlayerManager : MonoBehaviour
 
     void DieInWater()
     {
-        if (dead) return; // Aynı anda birden fazla kez çalışmasın
+        if (dead) return; 
         dead = true;
         health = 0;
 
         Debug.Log("Player drowned. Restarting scene...");
 
-        // Aktif sahneyi yeniden yükle
+        
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -75,5 +80,13 @@ public class PlayerManager : MonoBehaviour
         {
             DieInWater();
         }
+    }
+
+
+    public void ChangeValue()
+    {
+        source.volume = 0.10f;
+        coinvalue.text = coins.ToString();
+        source.PlayOneShot(clip);
     }
 }

@@ -35,18 +35,14 @@ public class PlayerController : MonoBehaviour
         OnGroundCheck();
         HandleFlip();
 
-        // Zıplama
+        
         if (Input.GetButtonDown("Jump") && isGrounded && Time.time > nextJumpTime)
         {
             nextJumpTime = Time.time + jumpCooldown;
             Jump();
         }
 
-        // Ateş etme (K tuşuna basıldığında)
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            playerAnimator.SetTrigger("Shoot");
-        }
+      
     }
 
     void HorizontalMove()
@@ -54,7 +50,7 @@ public class PlayerController : MonoBehaviour
         float moveInput = Input.GetAxis("Horizontal");
         playerRb.linearVelocity = new Vector2(moveInput * moveSpeed, playerRb.linearVelocity.y);
 
-        // Animasyona hız verisi gönder
+        
         playerAnimator.SetFloat("playerSpeed", Mathf.Abs(moveInput));
     }
 

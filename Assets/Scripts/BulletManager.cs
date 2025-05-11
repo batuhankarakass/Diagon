@@ -2,16 +2,21 @@ using UnityEngine;
 
 public class BulletManager : MonoBehaviour
 {
-    public float bulletDamage, lifeTime;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public float bulletDamage;
+
     void Start()
     {
-        Destroy(gameObject, 3f);
+        Destroy(gameObject, 2f);
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        
+
+        if (other.CompareTag("Enemy"))
+        {
+           
+ 
+            Destroy(gameObject);
+        }
     }
 }
