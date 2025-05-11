@@ -1,0 +1,3 @@
+Exe/2d.exe yolundan çalıştırabilirsiniz.
+
+Çalışmaz ise Visuall c++ yüklü olmalıdır.
